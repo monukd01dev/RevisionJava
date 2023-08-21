@@ -1,0 +1,23 @@
+Lets talk more about classes and objects
+
+1. What is class?
+    Class is a collection of similar type of Objects
+    -> In our previous example I have said that you and I are objects of class Human so, we have some similarities too we both have 2 hands, 2 legs and 1 head etc.
+    -> In same way think about our second example about planets.
+
+2. Objects
+    a. Read the previous one
+    b. Now all the technical terms starts from here
+    c. objects have some
+        I.  properties/state    (Instance Variables/DataMembers)
+        II. behaviours          (Methods / MemberFunctions)
+
+    d. DataMembers and MemberFunctions both have 2 types(These types are created according scope of (accessibility))
+        I.  Non-Static
+            1. Belongs to Objects
+                -> as it belongs to object, and we know that there is no limits to the no of objects in a class and not every object have same value for their properties
+                -> the value of these variables are different for each object
+                ->
+        II. Static
+            1. Belongs To Class
+            2. it is same for every object
