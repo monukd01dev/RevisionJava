@@ -1,0 +1,76 @@
+CONSTRUCTOR
+
+1.      In Java, a constructor is a block of codes similar to the method. It is called when an instance of the class is created. At the time of calling constructor, memory for the object is allocated in the memory.
+
+            -> It is a special type of method which is used to initialize the object.
+
+            -> Every time an object is created using the new() keyword, at least one constructor is called.
+
+            -> It calls a default constructor if there is no constructor available in the class. In such case, Java compiler provides a default constructor by default.
+
+2.1     There are two types of constructors in Java:
+            1. Default constructor (no-arg constructor)
+            2. parameterized constructor.
+
+        Note: It is called constructor because it constructs the values at the time of object creation. It is not necessary to write a constructor for a class. It is because java compiler creates a default constructor if your class doesn't have any.
+
+2.2     Rules for creating Java constructor
+            -> There are 3 rules defined for the constructor.
+                1. Constructor name must be the same as its class name
+                2. A Constructor must have no explicit return type
+                3. A Java constructor cannot be abstract, static, final, and synchronized
+
+2.1.1   Java Default Constructor
+            a. A constructor is called "Default Constructor" when it doesn't have any parameter.
+               Rule: If there is no constructor in a class, compiler automatically creates a default constructor.
+            b. What is the purpose of a default constructor?
+               The default constructor is used to provide the default values to the object like 0, null, etc., depending on the type.
+
+         Java Parameterized Constructor
+            a. A constructor which has a specific number of parameters is called a parameterized constructor.
+            b. Why use the parameterized constructor?
+               The parameterized constructor is used to provide different values to distinct objects. However, you can provide the same values also.
+
+
+3       Constructor Overloading in Java
+            a. In Java, a constructor is just like a method but without return type. It can also be overloaded like Java methods.
+            b. Constructor overloading in Java is a technique of having more than one constructor with different parameter lists. They are arranged in a way that each constructor performs a different task. They are differentiated by the compiler by the number of parameters in the list and their types.
+
+
+4       Difference between constructor and method in Java
+        There are many differences between constructors and methods. They are given below.
+        ---------------------------------------------------------------------------------------------
+        |               Java Constructor             |                   Java Method                |
+        ---------------------------------------------------------------------------------------------
+        |  1. A constructor is used to initialize    |  A method must have a return type.           |
+        |     the state of an object.                |                                              |
+        ---------------------------------------------------------------------------------------------
+        |  2. A constructor must not have a return   |  A method must have a return type.           |
+        |     type.                                  |                                              |
+        ---------------------------------------------------------------------------------------------
+        |  3. The constructor is invoked implicitly. |  The method is invoked explicitly.           |
+        ---------------------------------------------------------------------------------------------
+        |  4. The Java compiler provides a default   |  The method is not provided by the compiler  |
+        |     constructor if you don't have any      |  in any case.                                |
+        |     constructor in a class.                |                                              |
+        ---------------------------------------------------------------------------------------------
+        |  5. The constructor name must be same as   |  The method name may or may not be same as   |
+        |     the class name.                        |  the class name.                             |
+        ---------------------------------------------------------------------------------------------
+        |                                            |                                              |
+        |                                            |                                              |
+        ---------------------------------------------------------------------------------------------
+
+
+==> Important
+     1. Does constructor return any value?
+            Yes, it is the current class instance (You cannot use return type yet it returns a value).
+
+     2. Can constructor perform other tasks instead of initialization?
+            Yes, like object creation, starting a thread, calling a method, etc. You can perform any operation in the constructor as you perform in the method.
+
+     3. Is there Constructor class in Java?
+            Yes.
+
+     4. What is the purpose of Constructor class?
+            Java provides a Constructor class which can be used to get the internal information of a constructor in the class. It is found in the java.lang.reflect package.

@@ -1,4 +1,4 @@
-package com.basic.intro;
+package com.basic.intro.anotmyOfClass;
 
 public class AnatomyOfClass { //class block starts
 
