@@ -1,4 +1,4 @@
-1. OOPs is an approach/concept which comes to overcome the limitation functional programming.
+1. OOPs is an approach/concept which comes to overcome the limitations of functional programming.
 
     By using this concept we can represent any real world Entities and Instances which have some physical existence through Classes and Objects.
 

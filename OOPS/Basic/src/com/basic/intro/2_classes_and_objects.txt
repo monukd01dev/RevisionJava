@@ -1,0 +1,29 @@
+Lets talk more about classes and objects
+
+1. What is class?
+    Class is a collection of similar type of Objects
+    -> In our previous example I have said that you and I are objects of class Human so, we have some similarities too, we both have 2 hands, 2 legs and 1 head etc.
+    -> In same way think about our second example about planets.
+
+2. Objects
+    a. Read the previous one
+    b. Now all the technical terms starts from here
+    c. objects have some
+        I.  properties/state    (Instance Variables/DataMembers)
+        II. behaviours          (Methods / MemberFunctions)
+
+    d. DataMembers and MemberFunctions both have 2 types(These types are created according scope of (accessibility))
+        I.  Non-Static
+            1. Belongs to Objects
+                -> as it belongs to object, and we know that there is no limits to the no of objects in a class and not every object have same value for their properties
+                -> the value of these variables are different for each object
+                -> these variable are often called instance variable as it's belongs to instances(object/reference id)
+                -> we can use these variable and methods by objects only, cause it belongs to object
+                -> to access any non-static data-member and member function you need object(reference id).
+                -> objects are runtime entity that's why non-static things get memory at runtime
+        II. Static
+            1. Belongs To Class
+                -> for n number of similar objects we have one class so, anything which belongs to class is same for every object.
+                -> value of static variable and definition of static method is same of every object of that class
+                -> static things can be access through class name and also without class name if it is inside the class block
+                -> static things get memory at compile time if your template isn't ready at compile time how you'll create instances at run-time

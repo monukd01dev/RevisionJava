@@ -1,0 +1,28 @@
+What is This keyword and why we need it?
+
+1. what is this keyword:
+    a. reference variable
+    b. hold the reference id of current object (calling object)
+    c. by default it has the reference id of current object(calling object)
+
+2. why we need it :
+    a. this keyword is introduce to overcome the problem of Data Shadowing.
+        I.  Data Shadowing : when your data-member name and member-function parameter name is same and technology have failed to pick the desired variable is data shadowing.
+        II. Which variable is selected is very clear the, member-functions variable is selected because priority goes to local variable.
+
+3. how it works :
+    a. when your call any member-function your object through which you call the member-function became the calling object and its reference is stored inside this keyword.
+    b. After you have the reference id you make things more specific and tell the technology which one to pick.
+    c. And data shadowing is gone now.
+
+4. uses of this keyword :
+    a. this can be used to refer current class instance variable.
+    b. this only works with non-static context
+        I.  this is used to invoke current class method from another method(non-static), if don't put this technology implicitly put this keyword.
+        II. whenever we have to refer instance variable we use this keyword.
+    c. this() to invoke current class constructor (Constructor chaining).
+            -> call to this() must be the first statement in constructor.
+    d. this is used to pass as an argument in the method call.
+            -> for example in eventHandling like addActionListener(this)...
+    e. this can be passed as argument in the constructor call.
+    f. this can be used to return the current class instance from the method.
