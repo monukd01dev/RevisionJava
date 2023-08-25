@@ -42,8 +42,8 @@ CONSTRUCTOR
         ---------------------------------------------------------------------------------------------
         |               Java Constructor             |                   Java Method                |
         ---------------------------------------------------------------------------------------------
-        |  1. A constructor is used to initialize    |  A method must have a return type.           |
-        |     the state of an object.                |                                              |
+        |  1. A constructor is used to initialize    |  A method is used to expose the behavior of  |
+        |     the state of an object.                |  an object.                                  |
         ---------------------------------------------------------------------------------------------
         |  2. A constructor must not have a return   |  A method must have a return type.           |
         |     type.                                  |                                              |

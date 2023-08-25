@@ -8,7 +8,7 @@ public class Second {
         this.emp_id = emp_id;
         this.emp_name = emp_name;
 //        this.display();
-        display();// this he implicitly added here
+        display();// this is implicitly added here
     }
 
     void display() {

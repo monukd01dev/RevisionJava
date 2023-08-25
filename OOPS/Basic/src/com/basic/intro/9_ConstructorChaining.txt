@@ -1,0 +1,33 @@
+1. What is constructor chaining in Java?
+
+    ->  In Java, constructor chaining is a sequence of invoking constructors upon initializing an object. It is used when we want to invoke a number of constructors, one after another by using only an instance.
+
+    ->  A constructor is called from another constructor in the same class this process is known as constructor chaining. It occurs through inheritance. When we create an instance of a derived class, all the constructors of the inherited class (base class) are first invoked, after that the constructor of the calling class (derived class) is invoked.
+
+    -> Now at this point you think that if it starts form inheritance but you haven't creat any relationship with any yet, in java when class doesn't have any parent class by default object class is it's parent class.
+
+    -> The child class constructor call parent class constructor first before executing its own code this is done implicitly done by java, you can also do it explicitly by using super()
+
+    -> super() is like this()
+
+2. The Need of Constructor Chaining
+    ->  Suppose, there are five tasks to perform. There are two ways to perform these tasks, either implement all the tasks in a single constructor or create separate tasks in a single constructor.
+
+    ->  By using the constructor chaining mechanism, we can implement multiple tasks in a single constructor. So, whenever we face such types of problems, we should use constructor chaining. We can make the program more readable and understandable by using constructor chaining.
+
+3. Rules of Constructor Chaining
+    1. An expression that uses this keyword must be the first line of the constructor.
+    2. Order does not matter in constructor chaining.
+    3. There must exist at least one constructor that does not use this
+
+4. Constructor Calling form another Constructor
+    The calling of the constructor can be done in two ways:
+
+    1. By using this() keyword: It is used when we want to call the current class constructor within the same class.
+    2. By using super() keyword: It is used when we want to call the superclass constructor from the base class.
+
+5. Thing to Remember
+    1. First constructor of parent class will show output.
+    2. Changing the order of constructor doesn't change the effect of output.
+    3. We cannot use this() and super() simultaneously in one constructor block cause cause this() must be the first line of code
+    4. Constructor cannot be inherited in subclass, to call the constructor we use super().

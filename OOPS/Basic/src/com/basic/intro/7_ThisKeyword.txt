@@ -7,8 +7,8 @@ What is This keyword and why we need it?
 
 2. why we need it :
     a. this keyword is introduce to overcome the problem of Data Shadowing.
-        I.  Data Shadowing : when your data-member name and member-function parameter name is same and technology have failed to pick the desired variable is data shadowing.
-        II. Which variable is selected is very clear the, member-functions variable is selected because priority goes to local variable.
+        I.  Data Shadowing : when your data-member name and member-function parameter name(local variable) is same and technology have failed to pick the desired variable that condition is known as data shadowing.
+        II. Which variable is selected is very clear, member-functions variable is selected because priority goes to local variable.
 
 3. how it works :
     a. when your call any member-function your object through which you call the member-function became the calling object and its reference is stored inside this keyword.

@@ -1,6 +1,7 @@
 Instance variable / data-member
+a. The variable that are defined inside the class block outside the method blocks
 
-a. There are 4 ways to initialize instance variable
+b. There are 4 ways to initialize instance variable
     1. By Reference         -> com.basic.intro.instanceVariable
     2. By Method            -> com.basic.intro.instanceVariable
     2. By constructor       -> com.basic.intro.instanceVariable

@@ -12,8 +12,7 @@
     a. Logical Entity (Never Gets Memory)
     b. Class is a template/blueprint
     c. Class == Entity
-    d. Class is a Template
-    e. Objects are always represented by a class
+    d. Objects are always represented by a class
 
 4. Object
     a. Anything in this real world.
