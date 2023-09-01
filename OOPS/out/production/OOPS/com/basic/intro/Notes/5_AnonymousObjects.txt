@@ -1,0 +1,5 @@
+Anonymous Object
+-> means nameless
+-> object with no reference
+-> it can be used at the time of object creation only
+

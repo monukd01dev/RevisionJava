@@ -1,0 +1,301 @@
+1) What is Java?
+2) What are the differences between C++ and Java?
+3) List the features of Java Programming language.
+4) What do you understand by Java virtual machine?
+5) What is the difference between JDK, JRE, and JVM?
+6) How many types of memory areas are allocated by JVM?
+7) What is JIT compiler?
+8) What is the platform?
+9) What are the main differences between the Java platform and other platforms?
+10) What gives Java its 'write once and run anywhere' nature?
+11) What is classloader?
+12) Is Empty .java file name a valid source file name?
+13) Is delete, next, main, exit or null keyword in java?
+14) If I don't provide any arguments on the command line, then what will the value stored in the String array passed into the main() method, empty or NULL?
+
+=================================================================
+15) What if I write static public void instead of public static void?
+16) What is the default value of the local variables?
+17) What are the various access specifiers in Java?
+18) What is the purpose of static methods and variables?
+19) What are the advantages of Packages in Java?
+=================================================================
+			OOPs Concepts
+
+23) What is object-oriented paradigm?
+24) What is an object?
+25) What is the difference between an object-oriented programming language and object-based programming language?
+26) What will be the initial value of an object reference which is defined as an instance variable?
+=====================================================================
+			OOPs Concepts Constructor
+
+27) What is the constructor?
+
+28) How many types of constructors are used in Java?
+29) What is the purpose of a default constructor?
+30) Does constructor return any value?
+31)Is constructor inherited?
+32) Can you make a constructor final?
+33) Can we overload the constructors?
+34) What do you understand by copy constructor in Java?
+35) What are the differences between the constructors and methods?
+=====================================================================
+			OOPs Concepts static keyword
+
+39) What is the static variable?
+40) What is the static method?
+41) What are the restrictions that are applied to the Java static methods?
+42) Why is the main method static?
+43) Can we override the static methods?
+44) What is the static block?
+45) Can we execute a program without main() method?
+46) What if the static modifier is removed from the signature of the main method?
+47) What is the difference between static (class) method and instance method?
+48) Can we make constructors static?
+49) Can we make the abstract methods static in Java?
+50) Can we declare the static variables and methods in an abstract class?
+=====================================================================
+			OOPs Concepts Inheritance
+
+51) What is this keyword in java?
+52) What are the main uses of this keyword?
+53) Can we assign the reference to this variable?
+54) Can this keyword be used to refer static members?
+55) How can constructor chaining be done using this keyword?
+56) What are the advantages of passing this into a method instead of the current class object itself?
+57) What is the Inheritance?
+58) Why is Inheritance used in Java?
+59) Which class is the superclass for all the classes?
+60) Why is multiple inheritance not supported in java?
+61) What is aggregation?
+62) What is composition?
+63) What is the difference between aggregation and composition?
+64) Why does Java not support pointers?
+65) What is super in java?
+66) How can constructor chaining be done by using the super keyword?
+67) What are the main uses of the super keyword?
+68) What are the differences between this and super keyword?
+70) Can you use this() and super() both in a constructor?
+71)What is object cloning?
+===================================================================
+			OOPs Concepts Method Overloading
+
+72) What is method overloading?
+73) Why is method overloading not possible by changing the return type in java?
+74) Can we overload the methods by making them static?
+75) Can we overload the main() method?
+76) What is method overloading with type promotion?
+
+===================================================================
+
+			OOPs Concepts Method Overriding
+
+78) What is method overriding:
+79) Can we override the static method?
+80) Why can we not override static method?
+81) Can we override the overloaded method?
+82) Difference between method Overloading and Overriding.
+83) Can we override the private methods?
+84) Can we change the scope of the overridden method in the subclass?
+85) Can we modify the throws clause of the superclass method while overriding it in the subclass?
+87) Can you have virtual functions in Java?
+88) What is covariant return type?
+
+================================================================================
+
+				final keyword
+90) What is the final variable?
+91) What is the final method?
+92) What is the final class?
+93) What is the final blank variable?
+94) Can we initialize the final blank variable?
+95) Can you declare the main method as final?
+98) Can we declare a constructor as final?
+99) Can we declare an interface as final?
+100) What is the difference between the final method and abstract method?
+
+================================================================================
+
+				OOPs: Polymorphism
+
+101) What is the difference between compile-time polymorphism and runtime polymorphism?
+102) What is Runtime Polymorphism?
+103) Can you achieve Runtime Polymorphism by data members?
+104) What is the difference between static binding and dynamic binding?
+106) What is Java instanceOf operator?
+107) What is the abstraction?
+108) What is the difference between abstraction and encapsulation?
+109) What is the abstract class?
+110) Can there be an abstract method without an abstract class?
+112) Can you use abstract and final both with a method?
+113) Is it possible to instantiate the abstract class?
+114) What is the interface?
+115) Can you declare an interface method static?
+116) Can the Interface be final?
+117) What is a marker interface?
+119) Can we define private and protected modifiers for the members in interfaces?
+120) When can an object reference be cast to an interface reference?
+121) How to make a read-only class in Java?
+122) How to make a write-only class in Java?
+123) What are the advantages of Encapsulation in Java?
+
+===============================================================================================================
+
+					OOPs Concepts: Package
+
+
+124) What is the package?
+125) What are the advantages of defining packages in Java?
+126) How to create packages in Java?
+127) How can we access some class in another class in Java?
+128) Do I need to import java.lang package any time? Why?
+129) Can I import same package/class twice? Will the JVM load the package twice at runtime?
+130) What is the static import?
+
+===========================================================================================================
+
+					Java: Exception Handling
+
+131) How many types of exception can occur in a Java program?
+132) What is Exception Handling?
+134) What is the difference between Checked Exception and Unchecked Exception?
+135) What is the base class for Error and Exception?
+136) Is it necessary that each try block must be followed by a catch block?
+137) What is the output of the following Java program?
+138) What is finally block?
+139) Can finally block be used without a catch?
+140) Is there any case when finally will not be executed?
+141) What is the difference between throw and throws?
+144) Can an exception be rethrown?
+145) Can subclass overriding method declare an exception if parent class method doesn't throw an exception?
+
+
+String Handling Interview Questions:-
+--------------------------------------------------------
+
+
+149) What is String Pool?
+150) What is the meaning of immutable regarding String?
+151) Why are the objects immutable in java?
+152) How many ways can we create the string object?
+1) String Literal
+2) By new keyword
+153) How many objects will be created in the following code?
+154) Why java uses the concept of the string literal?
+155) How many objects will be created in the following code?
+158) What are the differences between String and StringBuffer?
+159) What are the differences between StringBuffer and StringBuilder?
+160) How can we create an immutable class in Java?
+161) What is the purpose of toString() method in Java?
+162) Why CharArray() is preferred over String to store the password?
+164) Name some classes present in java.util.regex package.
+165) How the metacharacters are different from the ordinary characters?
+166) Write a regular expression to validate a password. A password must start with an alphabet and followed by alphanumeric characters; Its length must be in between 8 to 20.
+
+Nested classes and Interfaces Interview Questions:-
+-------------------------------------------------------------------------
+
+168) What are the advantages of Java inner classes?
+169) What is a nested class?
+170) What are the disadvantages of using inner classes?
+171) What are the types of inner classes (non-static nested class) used in Java?
+172) Is there any difference between nested classes and inner classes?
+173) Can we access the non-final local variable, inside the local inner class?
+175) What are anonymous inner classes?
+176) What is the nested interface?
+177) Can a class have an interface?
+178) Can an Interface have a class?
+
+Garbage Collection Interview Questions:-
+----------------------------------------------------------
+
+179) What is Garbage Collection?
+180) What is gc()?
+181) How is garbage collection controlled?
+182) How can an object be unreferenced?
+183) What is the purpose of the finalize() method?
+184) Can an unreferenced object be referenced again?
+185) What kind of thread is the Garbage collector thread?
+186) What is the difference between final, finally and finalize?
+187) What is the purpose of the Runtime class?
+
+
+I/O Interview Questions:-
+-------------------------------------
+
+189) Give the hierarchy of InputStream and OutputStream classes.
+190) What do you understand by an IO stream?
+191) What is the difference between the Reader/Writer class hierarchy and the InputStream/OutputStream class hierarchy?
+192) What are the super most classes for all the streams?
+193) What are the FileInputStream and FileOutputStream?
+194) What is the purpose of using BufferedInputStream and BufferedOutputStream classes?
+195) How to set the Permissions to a file in Java?
+196) What are FilterStreams?
+197) What is an I/O filter?
+198) In Java, How many ways you can take input from the console?
+Using BufferedReader class:
+Using Scanner class:
+Using Console class:
+
+Serialization Interview Questions:-
+----------------------------------------------
+
+199) What is serialization?
+200) How can you make a class serializable in Java?
+201) How can you avoid serialization in child class if the base class is implementing the Serializable interface?
+202) Can a Serialized object be transferred via network?
+203) What is Deserialization?
+204) What is the transient keyword?
+205) What is Externalizable?
+206) What is the difference between Serializable and Externalizable interface?
+
+Networking Interview Questions:-
+----------------------------------------------------
+
+
+207) Give a brief description of Java socket programming?
+208) What is Socket?
+209) What are the steps that are followed when two computers connect through TCP?
+211) How do I convert a numeric IP address like 192.18.97.39 into a hostname like java.sun.com?
+
+Reflection Interview Questions:-
+-------------------------------------------
+
+212) What is the reflection?
+213) What is the purpose of using java.lang.Class class?
+214) What are the ways to instantiate the Class class?
+216) What is the purpose of using javap?
+217) Can you access the private method from outside the class?
+
+
+218)What are wrapper classes?
+219)What are autoboxing and unboxing? When does it occur?
+221) What is object cloning?
+222) What are the advantages and disadvantages of object cloning?
+223) What is a native method?
+224) What is the purpose of the strictfp keyword?
+225) What is the purpose of the System class?
+226) What comes to mind when someone mentions a shallow copy in Java?
+227) What is a singleton class?
+228) Write a Java program that prints all the values given at command-line.
+229) Which containers use a border layout as their default layout?
+
+
+229) Which containers use a border layout as their default layout?
+
+230) Which containers use a FlowLayout as their default layout?
+231) What are peerless components?
+232) is there is any difference between a Scrollbar and a ScrollPane?
+233) What is a lightweight component?
+234) What is a heavyweight component?
+235) What is an applet?
+236) Can you write a Java class that could be used both as an applet as well as an application?
+
+
+
+
+
+
+
+
+

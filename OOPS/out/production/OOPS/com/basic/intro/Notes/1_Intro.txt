@@ -1,0 +1,32 @@
+1. OOPs is an approach/concept which comes to overcome the limitations of functional programming.
+
+    By using this concept we can represent any real world Entities and Instances which have some physical existence through Classes and Objects.
+
+2. Pillar/Features of OOPs
+    a. Inheritance      -> re-usability
+    b. Polymorphism     -> one name different form
+    c. Encapsulation    -> data hiding
+    d. Abstraction      -> show Functionality hidden Complexity
+
+3. Class
+    a. Logical Entity (Never Gets Memory)
+    b. Class is a template/blueprint
+    c. Class == Entity
+    d. Objects are always represented by a class
+
+4. Object
+    a. Anything in this real world.
+    b. Any data in real world which have some physical existence
+    c. Instance of a Class
+    d. Runtime Entity (Gets the Memory)
+    e. Object == Instance
+
+5. Example
+    a. I and you are the Objects of Class Human.
+    b. Earth and other planets are Objects of Class Planet
+
+6. !Important ()
+    a. Naming Convention In programming Languages
+        -> camelCasing      --> you will see this naming convention in Methods name in Java
+        -> snake_casing     --> denote classes, namespaces, and abstractions like interfaces
+        -> PascalCasing     --> classes names

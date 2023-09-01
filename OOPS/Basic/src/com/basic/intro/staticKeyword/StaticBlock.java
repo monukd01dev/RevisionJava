@@ -9,7 +9,15 @@ class Parent{
     }
 
     {
-        System.out.println("From Parent");
+        System.out.println("From Parent init");
+    }
+
+    Parent(int x) {
+        System.out.println("from parent chain");
+    }
+    Parent() {
+        this(5);
+        System.out.println("from parent constructor");
     }
 }
 public class StaticBlock extends Parent{
@@ -27,11 +35,17 @@ public class StaticBlock extends Parent{
     }
 
     {
-        System.out.println("From Child");
+        System.out.println("From Child init");
+    }
+
+    StaticBlock(int x) {
+        System.out.println("From child chain");
     }
     StaticBlock() {
+        this(2);
         System.out.println("Child Constructor");
     }
+
 
     public static void main(String[] args) {
         new StaticBlock();
