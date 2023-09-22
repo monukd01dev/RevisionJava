@@ -1,0 +1,15 @@
+To acquire the fields and method of another class into our class, we have two ways in Java to do so
+1. Inheritance (IS-A)
+2. Association (Entity Reference)
+    a. Aggregation (Has-A)
+    b. Composition (Part-Of)
+
+Aggregation (Has-A)
+    -> If a class have an entity reference, it is known as Aggregation.
+    -> Aggregation represents Has-A relationship.
+
+//What to do
+//code the examples
+// understand difference between inheritance and association?
+// inheritance is a parent child relationship between two classes?
+// whereas association is an relationship established through objects reference?

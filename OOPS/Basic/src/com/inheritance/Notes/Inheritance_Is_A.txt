@@ -37,6 +37,16 @@ Types of inheritance in java
 
     When one class inherits multiple classes, it is known as multiple inheritance.
 
+The behavior of access modifiers in the case of inheritance in Java is as follows:
+
+    1. The private members of the superclass cannot be inherited to the subclass because the private members of superclass are not available to the subclass directly. They are only available in their own class.
+
+    2. default: It is also referred to as no modifier. Whenever we do not use any access modifier it is treated as default where this allows us to access within a class, within a subclass, and also non-sun class within a package but when the package differs now be it a subclass or non-class we are not able to access.
+
+    3. protected: With the above default keyword we were facing an issue as we are getting closer to the real world with the above default modifier but there was a constriction as we are not able to access class sub-class from a different package. So protected access modifier allows not only to access class be it subclass or non-sub class but allows us to access subclass of the different package which brings us very close to a real-world and hence strong understanding of inheritance is required for understanding and implementing this keyword.
+
+    4. Public members can be inherited from all subclasses.
+
 
 Question : Why multiple inheritance is not supported in java?
 

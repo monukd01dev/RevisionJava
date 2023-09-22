@@ -1,4 +1,4 @@
-package com.inheritance;
+package com.inheritance.isA;
 
 /*
 * this program will demonstrate that multiple is not supported in java for classes

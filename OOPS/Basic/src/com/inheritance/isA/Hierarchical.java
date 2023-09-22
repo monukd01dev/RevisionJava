@@ -1,4 +1,4 @@
-package com.inheritance;
+package com.inheritance.isA;
 
 class Horse extends Animal{
     void tellHorse() {

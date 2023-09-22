@@ -28,8 +28,9 @@ What is This keyword and why we need it?
     f. this can be used to return the current class instance from the method.
 
 5. To remember the uses of this, you just have to think about this more
-    -> like this is a variable that holds the reference id and a reference variable is also holds the reference id
-    -> so they both are nothing but reference variables so everything that you can do with reference variables you can do with this
+    -> this never works in static context
+    -> this is a variable that holds the reference id and a reference variable is also holds the reference id
+    -> so they both are nothing but reference variables so almost everything that you can do with reference variables you can do with this
         1. refer the instance variable.
         2. refer member functions.
         3. pass as method argument.

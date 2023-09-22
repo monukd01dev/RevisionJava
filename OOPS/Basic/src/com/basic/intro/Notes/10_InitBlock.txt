@@ -10,7 +10,7 @@ Ques 1 : Why use instance initializer block?
 There are three places in java where you can perform operations:
     1. method
     2. constructor
-    3. block
+    3. block (order matter)
 
 Ques 2 : What is invoked first, instance initializer block or constructor?
            -> you think that instance initializer block is firstly invoked but NO. Instance intializer block is invoked at the time of object creation. The java compiler copies the instance initializer block in the constructor after the first statement super(). So firstly, constructor is invoked.

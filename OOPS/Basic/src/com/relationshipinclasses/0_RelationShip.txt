@@ -1,0 +1,40 @@
+Relationship in Classes
+
+What is relationship in classes
+
+Class relationships in Java define the special relationships among different kinds of classes. For example, there is a special relationship between a class named Vehicle and a class Car: A Car is a type of Vehicle.
+
+There are 3 types of relationship in classes
+
+1. Dependence (Use-A)
+
+    It is the simplest and most general type of relationship, when we use scanner class object in our class to get the input from user we use this relationship.
+
+2. Association (Has-A)
+
+    Association is another fundamental relationship between classes that is informally known as “**Has-A**” relationship.
+
+    When an object of one class is created as data member inside another class, it is called **association relationship in java** or simply Has-A relationship
+
+    A most common real-time example of Has-A relationship in Java is “A person has an address”.
+
+    Has-A relationship denotes a **whole-part relationship** where a part cannot exist without the whole. In the above example, the person represents the whole, and the address represents the part. A part cannot exist by itself.
+
+    Association further have 2 types
+
+    1. Aggregation
+
+    Aggregation is one of the core concepts of object-oriented programming. It focuses on establishing a Has-A relationship between two classes.
+
+    In other words, two aggregated objects have their own life cycle, but one of the objects has an owner of Has-A relationship and child object cannot belong to another parent object. For example, a library has students. If the library is destroyed, students will exist without library.
+
+    2. Composition
+
+    Another one of the core concepts of object-oriented programming. It focuses on establishing a strong Has-A relationship between the two classes.
+
+    In other words, two composited objects cannot have their own life cycle. That is, a composite object cannot exist on its own. If one composite object is destroyed, all its parts are also be deleted.
+
+    For example, a house can have multiple rooms. A room cannot exist independently, and any room cannot belong to two different houses. If the house is destroyed, all its rooms will be automatically destroyed.
+
+3. Inheritance (Is-A)
+    Discussed in it's own section !!important

@@ -1,12 +1,12 @@
 How to create Object of a Class
 
-For this is in Java we have an Operator(Symbols that tells what operation have to perform) and Keyword(Reserved word which have different meaning) which is new.
+For this is in Java, we have "new" which is an Operator (Symbols that tells what operation has to perform) and a Keyword (Reserved word, which have different meaning).
 
 new -> operator/keyword
 
-what's new do :
+what's new do:
 -> allocate a memory buffer during runtime in heap
--> that buffer have an id/reference for its recognition
+-> that buffer has an id/reference for its recognition
 -> new returns the reference id.
 
 Example : Assume that I have a class Planet and I have to create an Object for the Planet class...

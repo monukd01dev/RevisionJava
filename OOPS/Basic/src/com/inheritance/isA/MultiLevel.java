@@ -1,4 +1,4 @@
-package com.inheritance;
+package com.inheritance.isA;
 
 /*
     Name    : Monu KD (monukd01dev)

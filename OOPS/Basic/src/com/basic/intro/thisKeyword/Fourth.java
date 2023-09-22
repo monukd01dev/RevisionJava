@@ -13,3 +13,19 @@ public class Fourth {
         new Fourth().runLast();
     }
 }
+class Fourth2 {
+    static void printReference(Fourth2 obj) {
+        System.out.println(obj);
+        
+    }
+
+    void runStaticMethod() {
+        printReference(this);
+    }
+
+    public static void main(String[] args) {
+        var myObj = new Fourth2();
+        System.out.println(myObj);
+        myObj.runStaticMethod();
+    }
+}
