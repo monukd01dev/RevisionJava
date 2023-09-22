@@ -26,4 +26,5 @@ Lets talk more about classes and objects
                 -> for n number of similar objects we have one class so, anything which belongs to class is same for every object.
                 -> value of static variable and definition of static method is same of every object of that class
                 -> static things can be access through class name and also without class name if it is inside the class block
-                -> static things get memory at compile time if your template isn't ready at compile time how you'll create instances at run-time
+                -> The memory required to define the structure and behavior of a class is determined at compile time and static thing belongs to class...
+                
